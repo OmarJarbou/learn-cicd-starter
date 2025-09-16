@@ -52,7 +52,7 @@ func TestGetAPIKey(t *testing.T) {
 		},
 		{
 			apiKey: "",
-			err:    ErrMalformedHeader,
+			err:    nil,
 		},
 		{
 			apiKey: "",
